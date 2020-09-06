@@ -1,0 +1,28 @@
+body {
+  background-image: url(/passwortBild.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  margin: 0 auto;
+  width: 20%;
+  border: 3px solid #133ab9;
+  padding: 30px 20px;
+  margin-top: 300px;
+  text-align: center;
+  position: relative;
+}
+h2 {
+  color: chartreuse;
+  margin: 0px 0px 30px 0px;
+}
+p {
+  margin: 0% 30%;
+  padding: 8px;
+  border: 2px solid black;
+  color: red;
+}
+button {
+  padding: 15px;
+  margin: 20px;
+}
