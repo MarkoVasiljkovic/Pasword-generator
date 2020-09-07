@@ -1,28 +1,40 @@
 body {
-  background-image: url(/passwortBild.jfif);
-  background-repeat: no-repeat;
+  background-image: url(/binary.jpg);
   background-size: cover;
 }
 .container {
+  background-image: url(/security.jpg);
   margin: 0 auto;
   width: 20%;
-  border: 3px solid #133ab9;
-  padding: 30px 20px;
-  margin-top: 300px;
+  height: 40%;
+  border: 3px solid #003cff;
+  margin-top: 27%;
   text-align: center;
-  position: relative;
+  justify-content: center;
+  padding: 2%;
+  border-radius: 20%;
+
+  /* position: relative; */
+}
+span {
+  background-color: black;
+  color: red;
+  padding: 2%;
+  margin: 0% 20%;
 }
 h2 {
-  color: chartreuse;
-  margin: 0px 0px 30px 0px;
-}
-p {
-  margin: 0% 30%;
-  padding: 8px;
-  border: 2px solid black;
-  color: red;
+  background-color: black;
+  color: green;
 }
 button {
-  padding: 15px;
-  margin: 20px;
+  margin: 10%;
+
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
