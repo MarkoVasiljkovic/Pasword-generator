@@ -4,37 +4,37 @@ body {
 }
 .container {
   background-image: url(/security.jpg);
-  margin: 0 auto;
-  width: 20%;
+  margin: auto;
+  width: 15%;
   height: 40%;
   border: 3px solid #003cff;
   margin-top: 27%;
   text-align: center;
-  justify-content: center;
   padding: 2%;
-  border-radius: 20%;
-
-  /* position: relative; */
+  border-radius: 15%;
 }
 span {
+  text-align: inherit;
   background-color: black;
   color: red;
   padding: 2%;
-  margin: 0% 20%;
+  margin: 5%;
 }
 h2 {
-  background-color: black;
-  color: green;
+  padding: 2%;
+  margin: 5%;
+  color: #000000;
+  font-weight: normal;
+  font-family: 'Ultra', sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
 }
 button {
-  margin: 10%;
-
-  background-image: linear-gradient(
-    to right,
-    #25aae1,
-    #4481eb,
-    #04befe,
-    #3f86ed
-  );
-  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  margin: 5%;
+}
+button:hover {
+  background: red;
+  cursor: pointer;
 }

@@ -1,4 +1,4 @@
-let button = document.getElementById('btn');
+let button = document.getElementById('button');
 let passInput = document.getElementById('pass');
 
 function randomPassword() {
@@ -14,4 +14,3 @@ function randomPassword() {
 button.addEventListener('click', function () {
   passInput.innerHTML = randomPassword();
 });
-console.log(randomPassword());
